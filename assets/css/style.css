@@ -12,14 +12,23 @@ body {
     margin-bottom: 40px;
     /*for sticky footer */
     color: black;
-    background-color: rgb(255,255,240);
+    background-color:rgb(255,255,240);
+    background-image: linear-gradient(to bottom right, #B1DDCF,#A4BAD6,#B1DDCF);
 }
 
 .content-container {
-    background-color: rgba(171, 63, 63, 0.5);
+    background-color:#B1DDCF;
     border-radius: 5px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     padding: 0px;
+}
+
+.content-container2 {
+    background-color: rgba(239, 167, 167, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    padding: 0px;
+    margin: 20px 0;
 }
 
 .main {
@@ -30,22 +39,29 @@ body {
 /* Navigation Bar */
 
 .navbar-light .navbar-nav .active>.nav-link {
-    color: black;
+    color: rgb(255,255,240);
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: black;
+    color: rgb(255,255,240);
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    font-size: 22px;
-    transition: .5s ease;
-    color: white;
+    color:#A4BAD6;
+}
+
+.icon {
+    font-size: 35px;
+    -webkit-text-stroke: 0.5px #A4BAD6;
+    color: #FFF8DC;  
+    text-shadow: 1px 1px 2px #EFA7A7, 0 0 25px #FFF8DC, 0 0 5px #EFA7A7;
 }
 
 .ks-nav {
-    font-size: 1.2rem;
-    border-right: 1px solid rgb(118, 173, 55);
+    font-size: 35px;
+    -webkit-text-stroke: 0.5px #A4BAD6;
+    color: #FFF8DC;  
+    text-shadow: 1px 1px 2px #EFA7A7, 0 0 25px #FFF8DC, 0 0 5px #EFA7A7;
     padding: 0;
 }
 
@@ -56,7 +72,7 @@ body {
 .navbar {
     overflow: hidden;
     padding: 0px 25px;
-    background-color: rgb(240,128,128);
+    background-color:#B1DDCF;
     position: fixed;
     /* Set the navbar to fixed position */
     top: 0;
@@ -69,7 +85,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: rgb(240,128,128);
+    background-color: #A4BAD6;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -81,5 +97,14 @@ footer {
 .footerText {
     color: #FFF8DC;
     font-size: 12px;
+}
+
+/* Colors */
+.colors{
+    color: #FFFFF4;
+    color: #EFA7A7;
+    color: #A4BAD6;
+    color: #B1DDCF;
+    color: #C6C6C6;
 }
 
