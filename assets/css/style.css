@@ -8,28 +8,44 @@ html {
     min-width: 100%;
 }
 
+/* body {
+    margin-bottom: 40px;
+    color: black;
+    background-image: url("../assets/images/Water-background.jpg");
+    background: linear-gradient(241deg, rgba(2,0,36,1) 0%, rgba(6,5,82,0.7514356084230567) 25%, rgba(6,5,83,0.7010154403558299) 32%, rgba(11,11,103,0.6113795860140931) 47%, rgba(9,9,121,0.46852244315695024) 58%, rgba(0,212,255,0.5021358885351015) 100%);
+} */
+
 body {
     margin-bottom: 40px;
-    /*for sticky footer */
-    color: black;
-    background-color:rgb(255,255,240);
-    background-image: linear-gradient(to bottom right, #B1DDCF,#A4BAD6,#B1DDCF);
+    background-color: #000022;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2000' height='2000' viewBox='0 0 800 800'%3E%3Cg fill='none' %3E%3Cg stroke='%23026' stroke-width='17'%3E%3Cline x1='-8' y1='-8' x2='808' y2='808'/%3E%3Cline x1='-8' y1='792' x2='808' y2='1608'/%3E%3Cline x1='-8' y1='-808' x2='808' y2='8'/%3E%3C/g%3E%3Cg stroke='%23002163' stroke-width='16'%3E%3Cline x1='-8' y1='767' x2='808' y2='1583'/%3E%3Cline x1='-8' y1='17' x2='808' y2='833'/%3E%3Cline x1='-8' y1='-33' x2='808' y2='783'/%3E%3Cline x1='-8' y1='-783' x2='808' y2='33'/%3E%3C/g%3E%3Cg stroke='%23002060' stroke-width='15'%3E%3Cline x1='-8' y1='742' x2='808' y2='1558'/%3E%3Cline x1='-8' y1='42' x2='808' y2='858'/%3E%3Cline x1='-8' y1='-58' x2='808' y2='758'/%3E%3Cline x1='-8' y1='-758' x2='808' y2='58'/%3E%3C/g%3E%3Cg stroke='%23001f5c' stroke-width='14'%3E%3Cline x1='-8' y1='67' x2='808' y2='883'/%3E%3Cline x1='-8' y1='717' x2='808' y2='1533'/%3E%3Cline x1='-8' y1='-733' x2='808' y2='83'/%3E%3Cline x1='-8' y1='-83' x2='808' y2='733'/%3E%3C/g%3E%3Cg stroke='%23001e59' stroke-width='13'%3E%3Cline x1='-8' y1='92' x2='808' y2='908'/%3E%3Cline x1='-8' y1='692' x2='808' y2='1508'/%3E%3Cline x1='-8' y1='-108' x2='808' y2='708'/%3E%3Cline x1='-8' y1='-708' x2='808' y2='108'/%3E%3C/g%3E%3Cg stroke='%23001d56' stroke-width='12'%3E%3Cline x1='-8' y1='667' x2='808' y2='1483'/%3E%3Cline x1='-8' y1='117' x2='808' y2='933'/%3E%3Cline x1='-8' y1='-133' x2='808' y2='683'/%3E%3Cline x1='-8' y1='-683' x2='808' y2='133'/%3E%3C/g%3E%3Cg stroke='%23001c53' stroke-width='11'%3E%3Cline x1='-8' y1='642' x2='808' y2='1458'/%3E%3Cline x1='-8' y1='142' x2='808' y2='958'/%3E%3Cline x1='-8' y1='-158' x2='808' y2='658'/%3E%3Cline x1='-8' y1='-658' x2='808' y2='158'/%3E%3C/g%3E%3Cg stroke='%23001b4f' stroke-width='10'%3E%3Cline x1='-8' y1='167' x2='808' y2='983'/%3E%3Cline x1='-8' y1='617' x2='808' y2='1433'/%3E%3Cline x1='-8' y1='-633' x2='808' y2='183'/%3E%3Cline x1='-8' y1='-183' x2='808' y2='633'/%3E%3C/g%3E%3Cg stroke='%23001a4c' stroke-width='9'%3E%3Cline x1='-8' y1='592' x2='808' y2='1408'/%3E%3Cline x1='-8' y1='192' x2='808' y2='1008'/%3E%3Cline x1='-8' y1='-608' x2='808' y2='208'/%3E%3Cline x1='-8' y1='-208' x2='808' y2='608'/%3E%3C/g%3E%3Cg stroke='%23001949' stroke-width='8'%3E%3Cline x1='-8' y1='567' x2='808' y2='1383'/%3E%3Cline x1='-8' y1='217' x2='808' y2='1033'/%3E%3Cline x1='-8' y1='-233' x2='808' y2='583'/%3E%3Cline x1='-8' y1='-583' x2='808' y2='233'/%3E%3C/g%3E%3Cg stroke='%23001846' stroke-width='7'%3E%3Cline x1='-8' y1='242' x2='808' y2='1058'/%3E%3Cline x1='-8' y1='542' x2='808' y2='1358'/%3E%3Cline x1='-8' y1='-558' x2='808' y2='258'/%3E%3Cline x1='-8' y1='-258' x2='808' y2='558'/%3E%3C/g%3E%3Cg stroke='%23001743' stroke-width='6'%3E%3Cline x1='-8' y1='267' x2='808' y2='1083'/%3E%3Cline x1='-8' y1='517' x2='808' y2='1333'/%3E%3Cline x1='-8' y1='-533' x2='808' y2='283'/%3E%3Cline x1='-8' y1='-283' x2='808' y2='533'/%3E%3C/g%3E%3Cg stroke='%2300163f' stroke-width='5'%3E%3Cline x1='-8' y1='292' x2='808' y2='1108'/%3E%3Cline x1='-8' y1='492' x2='808' y2='1308'/%3E%3Cline x1='-8' y1='-308' x2='808' y2='508'/%3E%3Cline x1='-8' y1='-508' x2='808' y2='308'/%3E%3C/g%3E%3Cg stroke='%2300153c' stroke-width='4'%3E%3Cline x1='-8' y1='467' x2='808' y2='1283'/%3E%3Cline x1='-8' y1='317' x2='808' y2='1133'/%3E%3Cline x1='-8' y1='-333' x2='808' y2='483'/%3E%3Cline x1='-8' y1='-483' x2='808' y2='333'/%3E%3C/g%3E%3Cg stroke='%23001439' stroke-width='3'%3E%3Cline x1='-8' y1='342' x2='808' y2='1158'/%3E%3Cline x1='-8' y1='442' x2='808' y2='1258'/%3E%3Cline x1='-8' y1='-458' x2='808' y2='358'/%3E%3Cline x1='-8' y1='-358' x2='808' y2='458'/%3E%3C/g%3E%3Cg stroke='%23001336' stroke-width='2'%3E%3Cline x1='-8' y1='367' x2='808' y2='1183'/%3E%3Cline x1='-8' y1='417' x2='808' y2='1233'/%3E%3Cline x1='-8' y1='-433' x2='808' y2='383'/%3E%3Cline x1='-8' y1='-383' x2='808' y2='433'/%3E%3C/g%3E%3Cg stroke='%23013' stroke-width='1'%3E%3Cline x1='-8' y1='392' x2='808' y2='1208'/%3E%3Cline x1='-8' y1='-408' x2='808' y2='408'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    /* Vanishing Stripes created by Matt Lipman */
 }
 
 .content-container {
-    background-color:#B1DDCF;
+    background-color:#002266;
     border-radius: 5px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     padding: 0px;
 }
 
 .content-container2 {
-    background-color: rgba(239, 167, 167, 0.7);
-    border-radius: 5px;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    background-color: #C6C6C6;
+    border-radius: 200px;
+    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); */
+    box-shadow: 1px 1px 2px #C6C6C6, 0 0 25px #C6C6C6, 0 0 5px #C6C6C6;
     padding: 0px;
-    margin: 20px 0;
+    margin: 15px 0;
 }
+
+.content-container3 {
+    background-color: rgba(177, 221, 207, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    padding: 0px;
+    margin: 20px 0 10px 0;
+}
+
 
 .main {
     margin-top: 78px;
@@ -43,7 +59,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(255,255,240);
+    color: #FFF8DC;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
@@ -52,16 +68,16 @@ body {
 
 .icon {
     font-size: 35px;
-    -webkit-text-stroke: 0.5px #A4BAD6;
+    -webkit-text-stroke: 0.5px #000022;
     color: #FFF8DC;  
-    text-shadow: 1px 1px 2px #EFA7A7, 0 0 25px #FFF8DC, 0 0 5px #EFA7A7;
+    text-shadow: 1px 1px 2px #FFF8DC, 0 0 25px #FFF8DC, 0 0 5px #FFF8DC;
 }
 
 .ks-nav {
     font-size: 35px;
-    -webkit-text-stroke: 0.5px #A4BAD6;
+    -webkit-text-stroke: 0.5px #000022;
     color: #FFF8DC;  
-    text-shadow: 1px 1px 2px #EFA7A7, 0 0 25px #FFF8DC, 0 0 5px #EFA7A7;
+    text-shadow: 1px 1px 2px #FFF8DC, 0 0 25px #FFF8DC, 0 0 5px #FFF8DC;
     padding: 0;
 }
 
@@ -72,7 +88,7 @@ body {
 .navbar {
     overflow: hidden;
     padding: 0px 25px;
-    background-color:#B1DDCF;
+    background-color:#002266;
     position: fixed;
     /* Set the navbar to fixed position */
     top: 0;
@@ -83,9 +99,44 @@ body {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
+#hambuger {
+    background-color:#FFFFF4;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px #FFFFF4, 0 0 25px #FFFFF4, 0 0 5px #FFFFF4;
+    border-color: #FFFFF4;
+    outline-color: #FFFFF4;
+    
+
+}
+
+
+
+/* Content Styles */
+#aboutImage {
+    height: 200px;
+    width: 200px;
+    max-width: 100%;
+    max-height: 50%;
+    margin: 20px;
+    border-radius: 50%;
+}
+.imageSize {
+    height: 250px;
+    width: 450px;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-top: 300px solid #C6C6C6;
+    border-right: 300px solid transparent;
+}
+
 /* Footer */
 footer {
-    background-color: #A4BAD6;
+    background-color: #002266;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -95,7 +146,7 @@ footer {
 }
 
 .footerText {
-    color: #FFF8DC;
+    color: #C6C6C6;
     font-size: 12px;
 }
 
@@ -106,5 +157,10 @@ footer {
     color: #A4BAD6;
     color: #B1DDCF;
     color: #C6C6C6;
+    color: #FF8C00;
+
+    color: #002266;
+    color: #001133;
+    color: #000022;
 }
 
