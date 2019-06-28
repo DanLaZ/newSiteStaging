@@ -31,7 +31,6 @@ body {
 
 .content-container2 {
     background-color: #C6C6C6;
-    border-radius: 200px;
     /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); */
     box-shadow: 1px 1px 2px #C6C6C6, 0 0 25px #C6C6C6, 0 0 5px #C6C6C6;
     padding: 0px;
@@ -44,6 +43,14 @@ body {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
     padding: 0px;
     margin: 20px 0 10px 0;
+}
+
+.content-container4 {
+    background-color: #EFA7A7;
+    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); */
+    box-shadow: 1px 1px 2px #C6C6C6, 0 0 25px #C6C6C6, 0 0 5px #C6C6C6;
+    padding: 0px;
+    margin: 20px 10px;
 }
 
 
@@ -66,38 +73,15 @@ body {
     color:#A4BAD6;
 }
 
-.icon {
-    font-size: 35px;
-    -webkit-text-stroke: 0.5px #000022;
-    color: #FFF8DC;  
-    text-shadow: 1px 1px 2px #FFF8DC, 0 0 25px #FFF8DC, 0 0 5px #FFF8DC;
-}
-
 .ks-nav {
     font-size: 35px;
     -webkit-text-stroke: 0.5px #000022;
     color: #FFF8DC;  
     text-shadow: 1px 1px 2px #FFF8DC, 0 0 25px #FFF8DC, 0 0 5px #FFF8DC;
     padding: 0;
+    margin: 0 10px;
 }
 
-.navbar-nav li:last-child a {
-    border: none;
-}
-
-.navbar {
-    overflow: hidden;
-    padding: 0px 25px;
-    background-color:#002266;
-    position: fixed;
-    /* Set the navbar to fixed position */
-    top: 0;
-    /* Position the navbar at the top of the page */
-    width: 100%;
-    /* Full width */
-    z-index: 1;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-}
 
 #hambuger {
     background-color:#FFFFF4;
@@ -118,13 +102,20 @@ body {
     max-width: 100%;
     max-height: 50%;
     margin: 20px;
+    border-style: solid;
     border-radius: 50%;
+    border-color: #FFFFF4;
+    box-shadow: 1px 1px 2px #C6C6C6, 0 0 25px #C6C6C6, 0 0 5px #C6C6C6;
 }
 .imageSize {
     height: 250px;
     width: 450px;
     min-height: 100%;
     min-width: 100%;
+}
+.aboutInfo {
+    margin: 0 auto;
+   
 }
 
 #triangle-bottomleft {
