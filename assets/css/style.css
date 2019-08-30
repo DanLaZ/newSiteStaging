@@ -41,8 +41,8 @@ body {
 .content-container3 {
     background-color: black;
     border-radius: 5px;
-    padding: 0px;
-    margin: 20px 0 10px 0;
+    padding: 10px;
+    margin: 20px 0;
     box-shadow: 1px 1px 2px #C6C6C6, 0 0 25px #C6C6C6, 0 0 5px #C6C6C6;
 }
 
@@ -85,6 +85,7 @@ h2 {
     text-shadow: 1px 1px 2px #FFF8DC, 0 0 25px #FFF8DC, 0 0 5px #FFF8DC;
     padding: 5px;
     margin: auto;
+    text-decoration: none;
    
 }
 
@@ -190,5 +191,60 @@ footer {
     color: #002266;
     color: #001133;
     color: #000022;
+}
+
+
+/* Modal Styles */
+#modal_wrapper.overlay::before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: goldenrod;
+  background: rgba(218,165,32,0.6);
+}
+
+#modal_window  {
+  display: none;
+  z-index: 200;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 700px;
+  height: 500px;
+  overflow: auto;
+  background: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #C6C6C6, 0 0 25px #C6C6C6, 0 0 5px #C6C6C6;
+  padding: 0px;
+  margin: 15px 0;
+}
+
+#modal_wrapper.overlay #modal_window {
+  display: block;
+}
+
+.innerModal {
+    background: black;
+    border: 5px groove white;
+    border-radius: 5px;
+    margin: 65px;
+    padding: 20px;
+    box-shadow: 1px 1px 2px #C6C6C6, 0 0 25px #C6C6C6, 0 0 5px #C6C6C6;
+
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    .content-container2 {
+        padding: 30px;
+      
+    }
 }
 

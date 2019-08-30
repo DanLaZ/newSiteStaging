@@ -8,10 +8,13 @@
     <!-- CSS Styles -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/feedback-modal-window.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!--Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+
+    
 
     
     <title>Daniel LaZenberry</title>
@@ -44,19 +47,7 @@
 
             <div class="col-2"></div>
             <div class="col-8 content-container3">
-                <p class="text-center aboutInfo">I’m a detailed oriented Full Stack Web Developer. Creating websites feels like creating a mini world for my users and myself to explore.</p>
-            </div>
-            <div class="col-2"></div>
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-2"></div>
-            <div class="col-8 content-container3">
-                <h2 class="text-center ProfLinks">Contact</h2>
-                <p class="text-center aboutInfo">Phone Number: (401) 525-0389</p>
-                <p class="text-center aboutInfo">Email: danlazenberry@outlook.com</p>
+                <p class="text-center aboutInfo pBlock">I’m a detailed oriented Full Stack Web Developer. Creating websites feels like creating a mini world for my users and myself to explore.</p>
             </div>
             <div class="col-2"></div>
 
@@ -133,18 +124,59 @@
                 <a class="ProfLinks" target="blank" href="https://github.com/DanLaZ">GitHub</a>
             </div>
             <div class="col-lg content-container4 text-center">
-                <a class="ProfLinks" target="blank" href="https://www.linkedin.com/in/daniel-lazenberry-038a14181/">Resume</a>
-            </div>
-            <div class="col-lg content-container4 text-center">
                 <a class="ProfLinks" target="blank" href="https://www.linkedin.com/in/daniel-lazenberry-038a14181/">LinkedIn</a>
             </div>
             <div class="col-lg content-container4 text-center">
-                <p class="ProfLinks">Email Me!</p>
+                <a class="ProfLinks" target="blank" href="https://www.linkedin.com/in/daniel-lazenberry-038a14181/">Resume</a>
             </div>
+            <div class="col-lg content-container4 text-center">
+                <a class="ProfLinks" id="modal_open">Contact</a>
+            </div>
+            <!-- <div class="col-lg content-container4 text-center">
+                <a class="ProfLinks" id="modal_open">Email Me!</a>
+            </div> -->
         
         </div>
 
-        <!-- Project Info Modals -->
+        <!-- Modals -->
+        <div id="modal_wrapper">
+            <div id="modal_window">
+        
+                <div style="text-align: right;"><a id="modal_close" href="#">X</a></div>
+                
+                <div class="innerModal">
+                    <p>Phone Number: (401) 525-0389</p>
+                </div>
+
+                <div class="innerModal">
+                    <p>Email: danlazenberry@outlook.com</p>
+                </div>
+            
+            </div> <!-- #modal_window -->
+        </div> <!-- #modal_wrapper -->
+
+        <div id="modal_wrapper">
+            <div id="modal_window">
+        
+                <div style="text-align: right;"><a id="modal_close" href="#">close <b>X</b></a></div>
+
+                <p>Complete the form below to send an email:</p>
+
+                <form id="modal_feedback" method="POST" action="#" accept-charset="UTF-8">
+                <p><label>Your Name<strong>*</strong><br>
+                <input type="text" autofocus required size="48" name="name" value=""></label></p>
+                <p><label>Email Address<strong>*</strong><br>
+                <input type="email" required title="Please enter a valid email address" size="48" name="email" value=""></label></p>
+                <p><label>Subject<br>
+                <input type="text" size="48" name="subject" value=""></label></p>
+                <p><label>Enquiry<strong>*</strong><br>
+                <textarea required name="message" cols="48" rows="8"></textarea></label></p>
+                <p><input type="submit" name="feedbackForm" value="Send Message"></p>
+                </form>
+        
+            </div> <!-- #modal_window -->
+        </div> <!-- #modal_wrapper -->
+
 
 
     </section>
@@ -155,6 +187,10 @@
         <div class="footerText">© Daniel LaZenberry</div>
     </footer>
 
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <script src="./assets/javascript/siteScript.js"></script>
 
     <!-- BootStrap Script -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
