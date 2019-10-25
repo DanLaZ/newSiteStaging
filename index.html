@@ -13,6 +13,8 @@
 
     <!--Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
 
     
 
@@ -35,11 +37,11 @@
         </div>
              
         <div class="row no-gutters">
-            <div class="col-2"></div>
-            <div class="col-8">
-                <h2 class="content-container3 text-center">Daniel LaZenberry</h2>
+   
+            <div class="col-12 text-center header-adjust">
+                <h2 class="text-center nameHeader">Daniel LaZenberry</h2>
             </div>
-            <div class="col-2"></div>
+   
         </div>
 
         <!-- A Quick About Me -->
@@ -120,16 +122,16 @@
         <!-- My Professional Links -->
         <div class="row">
 
-            <div class="col-lg content-container4 text-center">
+            <div class="col-lg content-container5 text-center">
                 <a class="ProfLinks" target="blank" href="https://github.com/DanLaZ">GitHub</a>
             </div>
-            <div class="col-lg content-container4 text-center">
+            <div class="col-lg content-container5 text-center">
                 <a class="ProfLinks" target="blank" href="https://www.linkedin.com/in/daniel-lazenberry-038a14181/">LinkedIn</a>
             </div>
-            <div class="col-lg content-container4 text-center">
+            <div class="col-lg content-container5 text-center">
                 <a class="ProfLinks" target="blank" href="https://www.linkedin.com/in/daniel-lazenberry-038a14181/">Resume</a>
             </div>
-            <div class="col-lg content-container4 text-center">
+            <div class="col-lg content-container5 text-center">
                 <a class="ProfLinks" id="modal_open">Contact</a>
             </div>
             <!-- <div class="col-lg content-container4 text-center">
@@ -183,8 +185,17 @@
 
 
     <!-- Footer -->
-    <footer class=" text-center mt-auto content-container">
-        <div class="footerText">© Daniel LaZenberry</div>
+    <footer class="text-center mt-auto">
+        <form method="POST" target="_blank">
+            <div class="content-container3">
+                <h2 class="footerText">© Daniel LaZenberry</h2>
+                <h3>Contact Me</h3>
+                <input type="email" name="email" placeholder="enter your email" required>
+                <input type="text" name="name" placeholder="enter your name" required>
+                <textarea name="message" cols="30" rows="10"></textarea>
+                <button>Submit</button>
+            </div>
+        </form>
     </footer>
 
     <!-- jQuery -->

@@ -17,44 +17,71 @@ body {
     background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
     font-family: 'Orbitron', sans-serif;
     font-size: 30px;
+    background-color: #19272e;
+    background-color: #19272e;
+    background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank  you! */
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nameHeader {
+    font-size: 200px;
+    font-family: 'Modak', cursive;
+}
+
+.header-adjust {
+    margin: 10px;
 }
 
 .content-container {
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
-    box-shadow: 1px 1px 2px #C6C6C6, 0 0 25px #C6C6C6, 0 0 5px #C6C6C6;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     padding: 0px;
 }
 
 .content-container2 {
-    background-color: black;
-    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); */
-    box-shadow: 1px 1px 2px #C6C6C6, 0 0 25px #C6C6C6, 0 0 5px #C6C6C6;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     padding: 0px;
     margin: 15px 0;
 }
 
 .content-container2:hover {
-    box-shadow: 1px 1px 2px #00FF7F, 0 0 25px #00FF7F, 0 0 5px #00FF7F;
+    box-shadow: 0.5px 0.5px 1px #C6C6C6, 0 0 12px #C6C6C6, 0 0 2px #C6C6C6;
 } 
 
 .content-container3 {
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
-    padding: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding: 0px;
     margin: 20px 0;
-    box-shadow: 1px 1px 2px #C6C6C6, 0 0 25px #C6C6C6, 0 0 5px #C6C6C6;
+    height: 100%;
+    width: 100%;
 }
 
 .content-container4 {
-    background-color: black;
-    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); */
-    box-shadow: 1px 1px 2px #C6C6C6, 0 0 25px #C6C6C6, 0 0 5px #C6C6C6;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     padding: 0px;
     margin: 20px 10px;
 }
 
-.content-container4:hover {
+.content-container5 {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding: 0px;
+    margin: 20px 10px;
+}
+
+.content-container5:hover {
     box-shadow: 1px 1px 2px #00FF7F, 0 0 25px #00FF7F, 0 0 5px #00FF7F;
 }
 
@@ -120,7 +147,6 @@ h2 {
     height: 100%;
     width: 100%;
     padding: 10px;
-    border: 2px outset  white;
 }
 
 
@@ -250,6 +276,9 @@ footer {
         width: 300px;
         height: 300px;
     }
+    .nameHeader {
+        font-size: 100px;
+    }
 }
 
 @media only screen and (max-width: 720px) {
@@ -278,6 +307,9 @@ footer {
         hyphens: auto;
         margin: auto;
         margin-bottom: 15px;
+    }
+    .nameHeader {
+        font-size: 50px;
     }
 }
 
