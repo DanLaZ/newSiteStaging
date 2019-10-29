@@ -23,10 +23,6 @@ body {
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank  you! */
 }
 
-footer {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
 .nameHeader {
     font-size: 200px;
     font-family: 'Modak', cursive;
@@ -82,7 +78,7 @@ footer {
 }
 
 .content-container5:hover {
-    box-shadow: 1px 1px 2px #00FF7F, 0 0 25px #00FF7F, 0 0 5px #00FF7F;
+    box-shadow: 0.5px 0.5px 1px #C6C6C6, 0 0 12px #C6C6C6, 0 0 2px #C6C6C6;
 }
 
 
@@ -112,8 +108,25 @@ h2 {
     text-shadow: 1px 1px 2px #FFF8DC, 0 0 25px #FFF8DC, 0 0 5px #FFF8DC;
     padding: 5px;
     margin: auto;
+    cursor: pointer;
     text-decoration: none;
-   
+}
+
+.ProfLinks:hover {
+    text-decoration: none;
+    color: #FFF8DC;  
+    text-shadow: 1px 1px 2px #FFF8DC, 0 0 25px #FFF8DC, 0 0 5px #FFF8DC;
+}
+
+.projectHeader {
+    font-size: 35px;
+    font-family: 'Orbitron', sans-serif;
+    -webkit-text-stroke: 0.5px #000022;
+    color: #FFF8DC;  
+    text-shadow: 1px 1px 2px #FFF8DC, 0 0 25px #FFF8DC, 0 0 5px #FFF8DC;
+    padding: 5px;
+    margin: auto;
+    text-decoration: none;
 }
 
 
@@ -181,18 +194,13 @@ h2 {
 
 /* Footer */
 footer {
-    background-color: #002266;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
     line-height: 40px;
     /*vertically centers */
 }
 
 .footerText {
     color: #C6C6C6;
-    font-size: 12px;
+    font-size: 25px;
 }
 
 
