@@ -3,255 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- CSS Styles -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="/feedback-modal-window.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!--Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Akronim" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
 
-    
+    <!--Animate.CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
-    
+    <!--CSS Style Sheets-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/media-queries.css" rel="stylesheet">
+
     <title>Daniel LaZenberry</title>
-
 </head>
 <body>
     
-    <section class="container">
-
+    <div class="main-container">
+        <header>
+            <nav>
+                <ul class="nav title">
+                    <!-- <li><a id="logo" href="index.html" title="Phoenix Icon Png #60263"><img src="https://www.pngkey.com/png/full/375-3753342_a-feather-of-the-phoenix-phoenix-feather.png" width="350" /></a></li> -->
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <!-- <li><a href="contact.html">Contact</a></li> -->
+                    <li><a href="about.html">About</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
         
-        
-        <div class="row no-gutters">
-            <div class="col-lg"></div>
-           
-            <!-- <div class="col-lg text-center"><img id="aboutImage"src="assets/images/dsc_8492.JPG"></div>     -->
-                
-            <div class="col-lg"></div>
-        </div>
-             
-        <div class="row no-gutters">
-   
-            <div class="col-12 text-center header-adjust">
-                <h2 class="text-center nameHeader">Daniel</h2>
-                <h2 class="text-center nameHeader">LaZenberry</h2>
-            </div>
-   
-        </div>
-
-        <!-- A Quick About Me -->
-        <div class="row">
-
-            <div class="col-2"></div>
-            <div class="col-8 content-container3">
-                <p class="text-center aboutInfo pBlock">A Detailed oriented Full Stack Web Developer, graduate of the Columbia Engineering Coding Boot Camp through Columbia University. Has a copious amount of curiosity for coding and an appetite for learning. Can remain stoic during extensive periods of stress and always sees the positives in any situation first. Passionate and teamwork driven</p>
-            </div>
-            <div class="col-2"></div>
-
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4 content-container4 text-center">
-                <p class="projectHeader">Projects</p>
-            </div>
-            <div class="col-lg-4"></div>
-        </div>
-
-        <!--------------------------------------------------->
-        <!-- Project Section --><!------------------------------>
-        <!--------------------------------------------------->
-
-        <!-- 1st Project Row -->
-        <!------------------------>
-        <div class="row">
+        <main>
             
-            <div class="col-lg-5 content-container2 ">           
-                
-                <div class="  ">
-                    <img class="imageSize " src="assets/images/screenshot-of-HHhome.jpg">
-                </div>
-                <h2>Health Hero(Group Project)</h2>
-                <p class="description">This site assists the user with planning meals throughout their week. This is a group project. I worked on the front-end logic and design.</p>  
-                <p>Roll: Front-end design and functionality.</p>
-                <a href="https://lrespino.github.io/Project-1/" target="blank" class="Links SiteLink"> Visit The Site</a>       
-                <a href="https://github.com/lrespino/Project-1" target="blank" class="Links CodeLink" > &ltcode&gt </a>
-           
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-5 content-container2 ">           
-                
-                <div class="  ">
-                    <img class="imageSize " src="assets/images/react-memory-game.png">
-                </div>
-                <h2>React Memory Game</h2>
-                <p class="description">A memory game that keeps track on your score and ends when an image is clicked twice.</p>       
-                <a href="https://mythical-memory-game.herokuapp.com" target="blank" class="Links SiteLink"> Visit The Site</a>     
-                <a href="https://github.com/DanLaZ/mythical-memory-game" target="blank" class="Links CodeLink" > &ltcode&gt </a>
-           
-            </div>   
-
-        </div>
-
-        <!-- 2nd Project Row -->
-        <!------------------------>
-        <div class="row">
+            <section class="intro-container sm-padding">
             
-            <div class="col-lg-5 content-container2 ">           
-                
-                <div class="  ">
-                    <img class="imageSize " src="assets/images/kwikly-react.png">
-                </div>
-                <h2>Kwikly(Group Project)</h2>
-                <p class="description">Kwikly helps people with minimal work skills and experience to find a job right away. The site gives employers the power to hire workers quickly. Need a quick buck? Go to Kwikly.</p>
-                <p>Role: Front-end design and Component Creator</p>
-                <a href="https://kwiklyy.herokuapp.com" target="blank" class="Links SiteLink"> Visit The Site</a>       
-                <a href="https://github.com/kayleighs/Kwikly" target="blank" class="Links CodeLink" > &ltcode&gt </a>
-           
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-5 content-container2 ">           
-                
-                <div class="  ">
-                    <img class="imageSize " src="assets/images/bamazon.gif">
-                </div>
-                <h2>Command Line Node App</h2>
-                <p class="description">This app simulates an online store using MySQL for the database and the npm Inquirer to ask questions within the app.</p>         
-                <a href="https://github.com/DanLaZ/bamazon_CLIapp" target="blank" class="Links CodeLink" > &ltcode&gt </a>
-           
-            </div>   
-
-        </div>
-
-        <!-- 3rd Project Row -->
-        <!------------------------>
-        <div class="row">
-            
-            <div class="col-lg-5 content-container2 ">           
-                
-                <div class="  ">
-                    <img class="imageSize " src="assets/images/lirigif.gif">
-                </div>
-                <h2>LIRI Bot - Command Line Node App</h2>
-                <p class="description">This LIRI bot will search Bands in Town for concerts, Spotify for songs, and OMDB for movies. </p>      
-                <a href="https://github.com/DanLaZ/liri-node-app" target="blank" class="Links CodeLink" > &ltcode&gt </a>
-           
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-5 content-container2 ">           
-                
-                <div class="  ">
-                    <img class="imageSize " src="assets/images/Nectar2.png">
-                </div>
-                <h2>Nurturing Nectar (TriviaGame)</h2>
-                <p class="description">A timed quiz about dangerous trees.</p>   
-                <a href="https://danlaz.github.io/TriviaGame/" target="blank" class="Links SiteLink"> Visit The Site</a>       
-                <a href="https://github.com/DanLaZ/TriviaGame" target="blank" class="Links CodeLink" > &ltcode&gt </a>
-           
-            </div>   
-
-        </div>
-
+                <div contenteditable="true" class="intro-message">
         
-
-        <!-- My Professional Links -->
-        <div class="row">
-
-            <div class="col-lg content-container5 text-center">
-                <a class="ProfLinks" target="blank" href="https://github.com/DanLaZ">GitHub</a>
-            </div>
-            <div class="col-lg content-container5 text-center">
-                <a class="ProfLinks" target="blank" href="https://www.linkedin.com/in/daniel-lazenberry-038a14181/">LinkedIn</a>
-            </div>
-            <div class="col-lg content-container5 text-center">
-                <a class="ProfLinks" target="blank" href="assets/images/DANIEL-LAZENBERRY_RESUME-V1[86].pdf">Resume</a>
-            </div>
-            <div class="col-lg content-container5 text-center">
-                <a class="ProfLinks" id="modal_open">Contacts</a>
-            </div>
-            <!-- <div class="col-lg content-container4 text-center">
-                <a class="ProfLinks" id="modal_open">Email Me!</a>
-            </div> -->
-        
-        </div>
-
-        <!-- Modals -->
-        <div id="modal_wrapper">
-            <div id="modal_window">
-        
-                <div style="text-align: right;"><a id="modal_close" href="#">X</a></div>
-                
-                <div class="innerModal">
-                    <p>Phone Number: (401) 525-0389</p>
+                    <div>
+                        <span class="flame">D</span><span class="flame">a</span><span class="flame">n</span>
+                    </div>
+                    <div>
+                        <span class="flame">L</span><span class="flame">a</span><span class="flame">Z</span><span class="flame">e</span><span class="flame">n</span><span class="flame">b</span><span class="flame">e</span><span class="flame">r</span><span class="flame">r</span><span class="flame">y</span>
+                    </div>
                 </div>
-
-                <div class="innerModal">
-                    <p>Email: daniel@danlaz.com</p>
-                </div>
-
-            </div> <!-- #modal_window -->
-        </div> <!-- #modal_wrapper -->
-
-        <div id="modal_wrapper">
-            <div id="modal_window">
         
-                <div style="text-align: right;"><a id="modal_close" href="#">close <b>X</b></a></div>
-
-                <p>Complete the form below to send an email:</p>
-
-                <form id="modal_feedback" method="POST" action="#" accept-charset="UTF-8">
-                <p><label>Your Name<strong>*</strong><br>
-                <input type="text" autofocus required size="48" name="name" value=""></label></p>
-                <p><label>Email Address<strong>*</strong><br>
-                <input type="email" required title="Please enter a valid email address" size="48" name="email" value=""></label></p>
-                <p><label>Subject<br>
-                <input type="text" size="48" name="subject" value=""></label></p>
-                <p><label>Enquiry<strong>*</strong><br>
-                <textarea required name="message" cols="48" rows="8"></textarea></label></p>
-                <p><input type="submit" name="feedbackForm" value="Send Message"></p>
-                </form>
+                <p class="intro intro-bottom">A Full Stack Web Developer</p>
+                <p class="intro intro-bottom">Here's a shortcut to my work</p>
+                <a class="portfolio-btn animated zoomInDown" href="portfolio.html">Click Here<span class="intro-emoji">🔥</span></a>
         
-            </div> <!-- #modal_window -->
-        </div> <!-- #modal_wrapper -->
+            </section>
+        
+        </main>
+        
+        <footer>
+            <!--Personal Social Media Links With Their Respective Icons-->
+            <a href="resume.html" alt="Link to my resume" class="tooltip">
+                <ion-icon name="newspaper"></ion-icon>
+                <span class="tooltiptext">My Resume</span>
+            </a>
+            <!-- <br> -->
+            <a href="mailto:daniel@danlaz.com" alt="Creates a e-mail" class="tooltip">
+                <ion-icon name="mail"></ion-icon>
+                <span class="tooltiptext">Email Me</span>
+            </a>
+            <!-- <br> -->
+            <a href="https://www.linkedin.com/in/daniel-lazenberry-038a14181/" alt="Link to my Linkedin account" target="_blank" class="tooltip"> 
+                <ion-icon class="icon"  name="logo-linkedin"></ion-icon>
+                <span class="tooltiptext">My LinkedIn Profile</span>
+            </a>
+            <!-- <br> -->
+            <a href="https://github.com/DanLaZ" alt="Link to my github" target="_blank" class="tooltip"> 
+                <ion-icon class="icon" name="logo-github"></ion-icon>
+                <span class="tooltiptext">My Github Profile</span>
+            </a>
+            <!-- <br> -->
+            <!-- <a href="https://twitter.com/LaZenberry_Dan" alt="Link to my twitter account" target="_blank" class="tooltip"> 
+                <ion-icon class="icon"  name="logo-twitter"></ion-icon>
+                <span class="tooltiptext">My Twitter Account</span>
+            </a> -->
+            <!-- <p>Daniel P LaZenberry&copy;</p>
+            <p>Email: <a href="mailto:danlazenberry@outlook.com">
+            danlazenberry@outlook.com</a>.</p> -->
+        </footer>
+    </div>
 
 
+    <!--Icon Link-->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
-    </section>
-
-
-    <!-- Footer -->
-    <footer class="text-center mt-auto">
-        <h2 class="footerText">©Daniel LaZenberry</h2>
-        <!-- <form method="POST" target="_blank">
-            <div class="content-container3">
-                <h2 class="footerText">© Daniel LaZenberry</h2>
-                <h3>Contact Me</h3>
-                <input type="email" name="email" placeholder="enter your email" required>
-                <input type="text" name="name" placeholder="enter your name" required>
-                <textarea name="message" cols="30" rows="10"></textarea>
-                <button>Submit</button>
-            </div>
-        </form> -->
-    </footer>
-
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-
-    <script src="./assets/javascript/siteScript.js"></script>
-
-    <!-- BootStrap Script -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    
 </body>
 </html>

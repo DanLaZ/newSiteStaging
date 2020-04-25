@@ -1,0 +1,234 @@
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    margin: auto;
+}
+
+.card-grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 100px;
+}
+  
+.card {
+  width: 450px;
+  height: 250px;
+  background-color: #fff;
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+  overflow: hidden;
+  position: relative;
+  margin: 1.5rem;
+  border: 1px outset #FF7133;
+  border-width: 0 0 4px 0;
+}
+
+.card h1 {
+  letter-spacing: 0.07em;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  margin: 0;
+}
+
+.card .additional {
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(to left, #FF7133, #BE3231);
+  transition: width 0.4s;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.card:hover .additional {
+  width: 100%;
+  /* border-radius: 0 5px 5px 0; */
+}
+
+.card .additional .user-card {
+  width: 150px;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.card .additional .user-card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: -2px;
+  height: 80%;
+  border-left: 2px solid rgba(0,0,0,0.025);
+}
+
+.card .additional .user-card .level,
+.card .additional .user-card .points {
+    top: 15%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 0.125rem 0.75rem;
+    white-space: nowrap;
+}
+
+.project-category {
+    border: 1px solid  black;
+    border-width: 0 0 2px 0;
+}
+
+.project-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: bold;
+    background: rgba(0,0,0,0.15);
+    padding: 0.125rem 0.75rem;
+    border-radius: 100px;
+    white-space: nowrap;
+}
+
+.project-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-hover:hover {
+    background: rgb(255,113,51);
+    cursor: pointer;
+}
+
+.card .additional .user-card .points {
+    top: 85%;
+}
+
+.card .additional .more-info {
+    width: 300px;
+    position: absolute;
+    left: 150px;
+    /* float: left; */
+    /* height: 100%; */
+    /* margin: auto; */
+}
+
+.card .additional .more-info h1 {
+    color: #fff;
+    /* margin-bottom: 0; */
+}
+
+.card .additional .coords {
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* .card .additional .coords span + span {
+  float: right;
+} */
+
+.card .additional .stats {
+    font-size: 2rem;
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    top: auto;
+    color: #fff;
+}
+
+.card .additional .stats > div {
+    flex: 1;
+    text-align: center;
+}
+
+.card .additional .stats div.value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.card .additional .stats div.value.infinity {
+    font-size: 2.5rem;
+}
+
+.card .general {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1rem;
+    padding-top: 0;
+    margin: auto;
+    background-size: 300px 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#health-hero-background {
+    background-image: url("/assets/images/healthHeroGIF.gif");
+}
+#google-book-background {
+    background-image: url("/assets/images/dan_pic.jpeg");
+}
+#artist-portfolio-background {
+    background-image: url("/assets/images/FireShot\ Capture\ 003\ -\ MalcoLm\ Christie\ -\ danlaz.github.io.png");
+}
+#bamazon-background {
+    background-image: url("/assets/images/bamazon.gif");
+}
+#liri-background {
+    background-image: url("/assets/images/lirigif.gif");
+}
+#giphy-background {
+    background-image: url("/assets/images/giphy_logo_square_social.png");
+}
+#react-memory-background {
+    background-image: url("/assets/images/react-memory-game.png");
+}
+
+.card .general h1 {
+    color: #fff6a9;
+    padding-top: 15px;
+    font-size: 20px;
+    text-shadow: 
+        0 0 5px #ffa500, 
+        0 0 15px #ffa500,
+        0 0 20px #ffa500,
+        0 0 40px #ffa500, 
+        0 0 60px #ff0000, 
+        0 0 10px #ff8d00,
+        0 0 98px #ff0000;
+    
+}
+
+.btn-div {
+    
+}
+
+.tech-btn {
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    background: #FF7133;
+    border: 0;
+    border-bottom: 3px solid #BE3231;
+    border-radius: 50px;
+    font-family: 'Bangers', cursive;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    padding: 5px;
+}
+
+.tech-btn:hover {
+    background: #BE3231;
+}
+

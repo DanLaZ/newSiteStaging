@@ -1,0 +1,322 @@
+/*Media Query*/
+
+@media(min-width: 2250px) {
+    .card-grid {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media(max-width: 1480px) {
+
+    .card-grid {
+        grid-template-columns: auto auto;
+    }
+
+}
+
+@media(max-width: 1250px) {
+
+    .pdf-style {
+        width: 1000px;
+    }
+ 
+}
+
+@media(max-width: 1040px) {
+
+    .pdf-style {
+        width: 900px;
+    }
+ 
+}
+
+@media(max-width: 995px) {
+
+    .card-grid {
+        grid-template-columns: auto;
+    }
+
+}
+
+@media(max-width: 940px) {
+
+    .pdf-style {
+        width: 850px;
+    }
+ 
+}
+
+@media(max-width: 885px) {
+
+    .pdf-style {
+        width: 825px;
+    }
+ 
+}
+
+@media(max-width: 860px) {
+
+    .pdf-style {
+        width: 815px;
+    }
+ 
+}
+
+@media(max-width: 845px) {
+
+    .pdf-style {
+        display: none;
+    }
+
+    .hide-resume {
+        display: initial;
+    }
+ 
+}
+
+@media(max-width: 540px) {
+
+    .flame {
+        font-size: 80px;
+	    min-width: 40px;
+    }
+
+    .intro {
+        font-size: 40px;
+    }
+
+    .about-sheet {
+        width: 400px;
+    }
+
+    #pro-pic {
+        height: 150px;
+        width: 100px;
+    }
+
+    .modal-content {
+        width: 275px;
+        
+    }
+
+}
+
+@media(max-width: 518px) {
+
+    ion-icon {
+        height: 75px;
+        width: 50px;   
+        padding: 0px 10px;   
+    }
+}
+
+@media(max-width: 499px) {
+    
+    .card {
+        width: 400px; /*Resize*/
+        height: 250px; /*Resize*/
+    }
+
+    .card .additional {
+        width: 150px; /*Resize*/
+        
+    }
+
+    .card:hover .additional {
+        width: 400px; /*Resize*/
+     
+    }
+
+    .card .additional .more-info {
+        width: 250px; /*Resize*/
+    
+    }
+
+    .card .additional .coords {
+        font-size: 14px; /*Resize*/
+    }
+
+    .card .general h1 {
+        padding-left: 55px;
+    }
+
+    .sm-padding {
+        padding-bottom: 150px;
+    }
+
+}
+
+@media(max-width: 464px) {
+
+    .nav a {
+        font-size: 30px;
+        padding: 5px;
+        
+    }
+}
+
+@media(max-width: 450px) {
+
+    .intro-container {
+        margin-top: 3.25em;
+    }
+
+    /* portfolio.html styles */
+    .card-grid {
+        /* justify-items: start; */
+    }
+    
+    .card {
+        width: 275px; /*Resize*/
+        height: 275px; /*Resize*/
+    }
+
+    .card .additional .user-card {
+        width: 100px;
+        height: 100%;
+
+    }
+
+    .card .additional .user-card .level,
+    .card .additional .user-card .points {
+        font-size: 10px;
+        padding: 0.125rem 0.75rem;
+    }
+
+    .project-link {
+        font-size: 9px;
+    }
+
+
+    .card .additional {
+        width: 100px; /*Resize*/
+        
+    }
+
+    .card:hover .additional {
+        width: 275px; /*Resize*/
+     
+    }
+
+    .card .additional .more-info {
+        width: 175px; /*Resize*/
+        left: 100px;
+    
+    }
+
+    .card .additional .coords {
+        font-size: 12px; /*Resize*/
+    }
+
+    .card .general h1 {
+        padding-left: 125px;
+    }
+
+    /* index.html styles */
+    .flame {
+        font-size: 80px;
+	    min-width: 40px;
+    }
+
+    .intro {
+        font-size: 30px;
+    }
+
+    .about-sheet {
+        width: 300px;
+    }
+
+}
+
+@media(max-width: 415px) {
+
+    .modal-header h2 {
+        font-size: 18px;
+    }
+
+    .tech-list {
+        font-size: 10px;
+    }
+
+}
+
+@media(max-width: 399px) {
+    /* index.html styles */
+    .flame {
+        font-size: 90px;
+	    min-width: 30px;
+    }
+
+
+}
+
+@media(max-width: 375px) {
+
+    /*Navbar styles*/
+    .nav a {
+        font-size: 25px;
+    }
+
+    /*Footer styles*/
+    ion-icon {
+        width: 40px;   
+        padding: 0px 10px;   
+    }
+
+    /* index.html styles */
+    .flame {
+        font-size: 60px;
+        line-height: 50px;
+	    min-width: 20px;
+    }
+
+    .intro {
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width: 340px) {
+
+    .about-sheet {
+        width: 250px;
+    }
+
+    #pro-pic {
+        height: 300px;
+        width: 200px;
+        float: none;
+        margin: auto;
+    }
+
+}
+
+@media(max-width: 335px) {
+
+    .intro {
+
+        font-size: 25px;
+        line-height: 25px;
+        padding-bottom: 20px;
+
+    }
+
+
+}
+
+@media(max-width: 325px) {
+
+    .nav a {
+        font-size: 23px;
+    }
+
+}
+
+@media(max-height: 480px) {
+
+    .modal-content {
+        height: 350px;
+    }
+
+
+}

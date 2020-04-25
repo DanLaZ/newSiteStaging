@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Akronim" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+
+    <!--Animate.CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!--CSS Style Sheets-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/card.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/tech-modal.css">
+    <link href="assets/css/media-queries.css" rel="stylesheet">
+
+    <title>Daniel LaZenberry</title>
+
+</head>
+<body>
+    
+    <div class="main-container">
+
+        <header>
+            <nav>
+                <ul class="nav title">
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="portfolio.html">Portfolio</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <!-- <li><a href="contact.html">Contact</a></li> -->
+                    <li><a href="about.html">About</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="intro-container">
+          
+            <div class="card-grid">
+
+                <!--React Memory Game-->
+                <div class="card">
+                    <div class="additional">
+                        <div class="user-card">
+                            <div class="level center project-category">
+                                Front-end
+                            </div> 
+                            <div class="project-link center link-hover">
+                                <a href="https://github.com/DanLaZ/mythical-memory-game" target="#blank">Source Code</a>
+                            </div>
+                            <div class="points project-link center link-hover">
+                                <a href="https://mythical-memory-game.herokuapp.com/" target="#blank">Website</a>
+                            </div>
+                        </div>
+                        <div class="more-info">
+                            <div class="coords">
+                                <p>
+                                    A memory game that keeps track on your score and ends when an image is clicked twice.
+                                </p>
+                            </div>
+                            <div class="btn-div">
+                                <button id="btn-1" class="tech-btn">Tech Used<span id="span-1" class="intro-emoji">💻</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="general" id="react-memory-background">
+                        <h1>React Memory Game</h1>
+                    </div>
+
+                    <!--Tech Modal Content-->
+                    <div id="myModal-1" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="close-grid">
+                                    <span class="close" id="close-1">&times;</span>
+                                </div>
+                                <h2>Tech Used</h2>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="tech-list">
+                                    <li>JSX & CSS3</li>
+                                    <li>CSS Grid</li>
+                                    <li>Algorithm</li>
+                                    <li>JavaScript</li>
+                                    <li>React.js</li>    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--Health Hero-->    
+                <div class="card" id="">
+                    <div class="additional">
+                        <div class="user-card">
+                            <div class="level center project-category">
+                                Front-end
+                            </div> 
+                            <div class="project-link center link-hover">
+                                <a href="https://github.com/lrespino/Project-1" target="#blank">Source Code</a>
+                            </div>
+                            <div class="points project-link center link-hover">
+                                <a href="https://lrespino.github.io/Project-1/" target="#blank">Website</a>
+                            </div>
+                        </div>
+                        <div class="more-info">
+                            <div class="coords">
+                                <p>
+                                    This site assists the user with planning meals throughout their week. This is a group project. I worked on the  front-end logic and design. Use email: test@test.com and pw: test1234 to login and try it out.
+                                </p>
+                            </div>
+                            <div class="btn-div">
+                                <button id="btn-2" class="tech-btn">Tech Used<span id="span-2" class="intro-emoji">💻</span></button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="general" id="health-hero-background">
+                        <h1>Health Hero</h1>
+                    </div>
+
+                    <!--Tech Modal Content-->
+                    <div id="myModal-2" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="close-grid">
+                                    <span class="close" id="close-2">&times;</span>
+                                </div>
+                                <h2>Tech Used</h2>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="tech-list">
+                                    <li>HTML5 & CSS3</li>
+                                    <li>JavaScript</li>
+                                    <li>jQuery</li>
+                                    <li>Edamam Recipe Search API</li>
+                                    <li>Google Firebase</li>
+                                    <li>Font Awesome</li>
+                                    <li>Dragula</li>
+                                    <li>Bootstrap</li>
+                                    <li>Animate.css</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--Google Book Search-->
+                <!-- <div class="card">
+                    <div class="additional">
+                        <div class="user-card">
+                            <div class="level center project-category">
+                                Full-Stack
+                            </div> 
+                            <div class="project-link center link-hover">
+                                <a href="https://github.com/DanLaZ/book-search" target="#blank">Source Code</a>
+                            </div>
+                            <div class="points project-link center link-hover">
+                                <a href="https://dans-book-search.herokuapp.com/" target="#blank">Website</a>
+                            </div>
+                        </div>
+                        <div class="more-info">
+                            <div class="coords">
+                                <p>
+                                    A React-based Google Books Search app that queries and displays books based on user's search. Users can also save books to review or purchase later.  
+                                </p>
+                            </div>
+                            <div class="btn-div">
+                                <button id="btn-3" class="tech-btn">Tech Used<span id="span-3" class="intro-emoji">💻</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="general" id="google-book-background">
+                        <h1>Google Book Search</h1>
+                    </div> -->
+
+                    <!--Tech Modal Content-->
+                    <!-- <div id="myModal-3" class="modal"> -->
+                        <!-- Modal content -->
+                        <!-- <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="close-grid">
+                                    <span class="close" id="close-3">&times;</span>
+                                </div>
+                                <h2>Tech Used</h2>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="tech-list">
+                                    <li>HTML5 & CSS3</li>
+                                    <li>JavaScript</li>
+                                    <li>React.js</li>
+                                    <li>Axios</li>
+                                    <li>MongoDB</li>
+                                    <li>Node.js</li>
+                                    <li>Express.js</li>
+                                    <li>Mongoose</li>
+                                    <li>Google Books API</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> -->
+
+                <!--Malcolm_Christie-->
+                <!-- <div class="card">
+                    <div class="additional">
+                        <div class="user-card">
+                            <div class="level center project-category">
+                                Front-End
+                            </div> 
+                            <div class="project-link center link-hover">
+                                <a href="https://github.com/DanLaZ/Malcolm_Christie" target="#blank">Source Code</a>
+                            </div>
+                            <div class="points project-link center link-hover">
+                                <a href="https://danlaz.github.io/Malcolm_Christie/" target="#blank">Website</a>
+                            </div>
+                        </div>
+                        <div class="more-info">
+                            <div class="coords">
+                                <p>
+                                    This site is an artist portfolio I created for a client. The art is displayed in a grid. When clicked on, the art work becomes larger so it can be seen up close. The contact page uses php to send emails to the client.
+                                </p>
+                            </div>
+                            <div class="btn-div">
+                                <button id="btn-4" class="tech-btn">Tech Used<span id="span-4" class="intro-emoji">💻</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="general" id="artist-portfolio-background">
+                        <h1>Artist Portfolio Site</h1>
+                    </div> -->
+
+                    <!--Tech Modal Content-->
+                    <!-- <div id="myModal-4" class="modal"> -->
+                        <!-- Modal content -->
+                        <!-- <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="close-grid">
+                                    <span class="close" id="close-4">&times;</span>
+                                </div>
+                                <h2>Tech Used</h2>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="tech-list">
+                                    <li>HTML5 & CSS3</li>
+                                    <li>CSS Grid</li>                         
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> -->
+
+                <!--bamazon_CLIapp-->
+                <div class="card">
+                    <div class="additional">
+                        <div class="user-card">
+                            <div class="level center project-category">
+                                Back-End
+                            </div> 
+                            <div class="project-link center link-hover">
+                                <a href="https://github.com/DanLaZ/bamazon_CLIapp" target="#blank">Source Code</a>
+                            </div>
+                        </div>
+                        <div class="more-info">
+                            <div class="coords">
+                                <p>
+                                    This node app takes in orders from customers and depletes stock from the store's inventory using MySQL for the datebase.
+                                </p>
+                            </div>
+                            <div class="btn-div">
+                                <button id="btn-5" class="tech-btn">Tech Used<span id="span-5" class="intro-emoji">💻</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="general" id="bamazon-background">
+                        <h1>Node Fish Store CLI-APP</h1>
+                    </div>
+
+                    <!--Tech Modal Content-->
+                    <div id="myModal-5" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="close-grid">
+                                    <span class="close" id="close-5">&times;</span>
+                                </div>
+                                <h2>Tech Used</h2>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="tech-list">
+                                    <li>JavaScript</li>
+                                    <li>Node.js</li>
+                                    <li>Inquirer</li>
+                                    <li>Chalk</li>
+                                    <li>Figlet</li>
+                                    <li>DotEnv</li>
+                                    <li>MySQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--liri-node-app-->
+                <div class="card">
+                    <div class="additional">
+                        <div class="user-card">
+                            <div class="level center project-category">
+                                Back-End
+                            </div> 
+                            <div class="project-link center link-hover">
+                                <a href="https://github.com/DanLaZ/liri-node-app" target="#blank">Source Code</a>
+                            </div>
+                        </div>
+                        <div class="more-info">
+                            <div class="coords">
+                                <p>
+                                    A Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives back data from Spotify, OMDB & Bands In Town. Search for songs, concert dates and movie info.
+                                </p>
+                            </div>
+                            <div class="btn-div">
+                                <button id="btn-6" class="tech-btn">Tech Used<span id="span-6" class="intro-emoji">💻</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="general" id="liri-background">
+                        <h1>liri-node-app</h1>
+                    </div>
+
+                    <!--Tech Modal Content-->
+                    <div id="myModal-6" class="modal">
+                                
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="close-grid" id="close-6">
+                                    <span class="close">&times;</span>
+                                </div>
+                                <h2>Tech Used</h2>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="tech-list">
+                                    <li>JavaScript</li>
+                                    <li>Node.js</li>
+                                    <li>Node-Spotify-API</li>
+                                    <li>OMDB API</li>
+                                    <li>Bands In Town API</li>
+                                    <li>Axios</li>
+                                    <li>Moment</li>
+                                    <li>DotEnv</li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+
+                <!--GifTastic-DanceMachine-->
+                <div class="card">
+                    <div class="additional">
+                        <div class="user-card">
+                            <div class="level center project-category">
+                                Front-End
+                            </div> 
+                            <div class="project-link center link-hover">
+                                <a href="https://github.com/DanLaZ/GifTastic-DanceMachine" target="#blank">Source Code</a>
+                            </div>
+                            <div class="points project-link center link-hover">
+                                <a href="https://danlaz.github.io/GifTastic-DanceMachine/" target="#blank">Website</a>
+                            </div>
+                        </div>
+                        <div class="more-info">
+                            <div class="coords">
+                                <p>
+                                    This app uses the GIPHY API to make a dynamic web page that populates with gifs of the user's choice.
+                                  
+                                </p>
+                            </div>
+                            <div class="btn-div">
+                                <button id="btn-7" class="tech-btn">Tech Used<span id="span-7" class="intro-emoji">💻</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="general" id="giphy-background">
+                        <h1>Giphy API App</h1>
+                    </div>
+
+                    <!--Tech Modal Content-->
+                    <div id="myModal-7" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="close-grid" id="close-7">
+                                    <span class="close">&times;</span>
+                                </div>
+                                <h2>Tech Used</h2>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="tech-list">
+                                    <li>HTML5 & CSS3</li>
+                                    <li>JavaScript</li>
+                                    <li>Jquery</li>
+                                    <li>Bootstrap</li>
+                                    <li>Giphy API</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--Unit-4-game-->
+            <!-- <div class="card">
+                <div class="additional">
+                    <div class="user-card">
+                        <div class="level center project-category">
+                            Front-end
+                        </div> 
+                        <div class="project-link center link-hover">
+                            <a href="https://github.com/DanLaZ/unit-4-game" target="#blank">Source Code</a>
+                        </div>
+                        <div class="points project-link center link-hover">
+                            <a href="https://danlaz.github.io/unit-4-game/" target="#blank">Website</a>
+                        </div>
+                    </div>
+                    <div class="more-info">
+                        <div class="coords">
+                            <p>
+                                Interactive game that dynamically updates HTML with jQuery. A number between 19-120 is generated at the start of the game. Each emerald has a random hidden value between 1-12 that needs to be clicked to match the generated number.
+                            </p>
+                        </div>
+                        <div class="btn-div">
+                            <button id="btn-1" class="tech-btn">Tech Used<span id="span-1" class="intro-emoji">💻</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="general" id="sonic-background">
+                    <h1>Sonic Emerald Game </h1>
+                </div> -->
+
+                <!--Tech Modal Content-->
+                <!-- <div id="myModal-1" class="modal"> -->
+                    <!-- Modal content -->
+                    <!-- <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="close-grid">
+                                <span class="close" id="close-1">&times;</span>
+                            </div>
+                            <h2>Tech Used</h2>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="tech-list">
+                                <li>HTML5 & CSS3</li>
+                                <li>JavaScript</li>
+                                <li>Jquery</li>    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div> -->
+
+        </main>
+        
+        <footer>
+            <!--Personal Social Media Links With Their Respective Icons-->
+            <a href="resume.html" alt="Link to my resume" class="tooltip">
+                <ion-icon name="newspaper"></ion-icon>
+                <span class="tooltiptext">My Resume</span>
+            </a>
+            <!-- <br> -->
+            <a href="mailto:daniel@danlaz.com" alt="Creates a e-mail" class="tooltip">
+                <ion-icon name="mail"></ion-icon>
+                <span class="tooltiptext">Email Me</span>
+            </a>
+            <!-- <br> -->
+            <a href="https://www.linkedin.com/in/daniel-lazenberry-038a14181/" alt="Link to my Linkedin account" target="_blank" class="tooltip"> 
+                <ion-icon class="icon"  name="logo-linkedin"></ion-icon>
+                <span class="tooltiptext">My LinkedIn Profile</span>
+            </a>
+            <!-- <br> -->
+            <a href="https://github.com/DanLaZ" alt="Link to my github" target="_blank" class="tooltip"> 
+                <ion-icon class="icon" name="logo-github"></ion-icon>
+                <span class="tooltiptext">My Github Profile</span>
+            </a>
+            <!-- <br> -->
+            <!-- <a href="https://twitter.com/LaZenberry_Dan" alt="Link to my twitter account" target="_blank" class="tooltip"> 
+                <ion-icon class="icon"  name="logo-twitter"></ion-icon>
+                <span class="tooltiptext">My Twitter Account</span>
+            </a> -->
+            <!-- <p>Daniel P LaZenberry&copy;</p>
+            <p>Email: <a href="mailto:danlazenberry@outlook.com">
+            danlazenberry@outlook.com</a>.</p> -->
+        </footer>
+    </div>
+
+    <!--Icon Link-->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <!--Modal JS File-->
+    <script src="assets/javascript/tech-modal.js"></script>
+
+</body>
+</html>
