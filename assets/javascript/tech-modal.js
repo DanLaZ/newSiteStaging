@@ -11,14 +11,14 @@ let btn_2 = document.querySelector('#btn-2');
 let close_2 = document.querySelector('#close-2');
 
 // 3rd Project
-let modal_3 = document.querySelector('#myModal-3');
-let btn_3 = document.querySelector('#btn-3');
-let close_3 = document.querySelector('#close-3');
+// let modal_3 = document.querySelector('#myModal-3');
+// let btn_3 = document.querySelector('#btn-3');
+// let close_3 = document.querySelector('#close-3');
 
 // 4th Project
-let modal_4 = document.querySelector('#myModal-4');
-let btn_4 = document.querySelector('#btn-4');
-let close_4 = document.querySelector('#close-4');
+// let modal_4 = document.querySelector('#myModal-4');
+// let btn_4 = document.querySelector('#btn-4');
+// let close_4 = document.querySelector('#close-4');
 
 // 5th Project
 let modal_5 = document.querySelector('#myModal-5');
@@ -34,7 +34,6 @@ let close_6 = document.querySelector('#close-6');
 let modal_7 = document.querySelector('#myModal-7');
 let btn_7 = document.querySelector('#btn-7');
 let close_7 = document.querySelector('#close-7');
-
 
 // Onclick functions
 
@@ -68,35 +67,35 @@ btn_2.onclick = () => {
     }
 }
 
-btn_3.onclick = () => {
-    console.log('Im btn 3');
-    modal_3.style.display = "block";
+// btn_3.onclick = () => {
+//     console.log('Im btn 3');
+//     modal_3.style.display = "block";
 
-    close_3.onclick = () => {
-        modal_3.style.display = "none";
-    }
+//     close_3.onclick = () => {
+//         modal_3.style.display = "none";
+//     }
 
-    window.onclick = (e) => {
-        if (e.target == modal_3) {
-          modal_3.style.display = "none";
-        }
-    }
-}
+//     window.onclick = (e) => {
+//         if (e.target == modal_3) {
+//           modal_3.style.display = "none";
+//         }
+//     }
+// }
 
-btn_4.onclick = () => {
-    console.log('Im btn 4');
-    modal_4.style.display = "block";
+// btn_4.onclick = () => {
+//     console.log('Im btn 4');
+//     modal_4.style.display = "block";
 
-    close_4.onclick = () => {
-        modal_4.style.display = "none";
-    }
+//     close_4.onclick = () => {
+//         modal_4.style.display = "none";
+//     }
 
-    window.onclick = (e) => {
-        if (e.target == modal_4) {
-          modal_4.style.display = "none";
-        }
-    }
-}
+//     window.onclick = (e) => {
+//         if (e.target == modal_4) {
+//           modal_4.style.display = "none";
+//         }
+//     }
+// }
 
 btn_5.onclick = () => {
     console.log('Im btn 5');
